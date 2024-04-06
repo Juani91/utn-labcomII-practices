@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>F1 - Official Home</title>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1><em>Bienvenido a la página oficial de la Fórmula 1</em></h1>
+    </header>
+    <div class="container">
+        <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal -->
+        <main>
+            <hr>
+            <h3><ins>Contáctate con nosotros</ins>:</h3>
+            <fieldset>
+                <legend>Por favor completa los siguientes campos:</legend>
+                <table>
+                    <tr>
+                        <td><label for="nombre">Nombre:</label></td>
+                        <td><input type="text" id="nombre" name="nombre" required maxlength="30" minlength="10"
+                                placeholder="Nombre"></td> <!-- Agregar max lenght-->
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" name="email" id="email" required maxlength="30" minlength="10"
+                                placeholder="Email"></td> <!-- Agregar max lenght-->
+                    </tr>
+                    <tr>
+                        <td><label for="edad">Edad:</label></td>
+                        <td><input type="number" name="edad" id="edad" placeholder="Edad" style="width: 60px;"></td>
+                        <!-- Agregar value y tamaño-->
+                    </tr>
+                    <tr>
+                        <td><label for="piloto">Piloto preferido:</label></td>
+                        <td>
+                            <select name="piloto" id="piloto">
+                                <option value="Verstappen">Max Verstappen</option>
+                                <option value="Sainz">Carlos Sainz Jr</option>
+                                <option value="Leclerc">Charles Leclerc</option>
+                                <option value="Hamilton" selected>Lewis Hamilton</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label for="comentario">Envíanos un comentario:</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><textarea name="comentario" id="comentario" cols="40" rows="10"
+                                placeholder="Nos interesa tu opinión!" class="TextareaContact"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" value="Enviar"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            <hr>
+            <h3><ins>Nos encontramos en</ins>:</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.8702577809595!2d-60.646306824423114!3d-32.95443467358997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab11d0eb49c3%3A0x11f1d3d54f950dd0!2sUniversidad%20Tecnol%C3%B3gica%20Nacional%20%7C%20Facultad%20Regional%20Rosario!5e0!3m2!1ses!2sar!4v1712243235797!5m2!1ses!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <hr>
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>GP Australia:</h2>
+            <table class="TablaDer">
+                <tr>
+                    <th>Piloto</th>
+                    <th>Tiempo</th>
+                </tr>
+                <tr>
+                    <td>C. Sainz Jr</td>
+                    <td>1:20:26.843</td>
+                </tr>
+                <tr>
+                    <td>C. Leclerc</td>
+                    <td>+2.366s</td>
+                </tr>
+                <tr>
+                    <td>L. Norris</td>
+                    <td>+5.904s</td>
+                </tr>
+                <tr>
+                    <td>O. Piastri</td>
+                    <td>+35.770s</td>
+                </tr>
+                <tr>
+                    <td>S. Perez</td>
+                    <td>+56.309s</td>
+                </tr>
+                <tr>
+                    <td>L. Stroll</td>
+                    <td>+93.222s</td>
+                </tr>
+                <tr>
+                    <td>Y. Tsunoda</td>
+                    <td>+95.601s</td>
+                </tr>
+                <tr>
+                    <td>F. Alonso</td>
+                    <td>+100.992s</td>
+                </tr>
+                <tr>
+                    <td>N. Hulkenberg</td>
+                    <td>+104.553s</td>
+                </tr>
+                <tr>
+                    <td>K. Magnussen</td>
+                    <td>+1 vuelta</td>
+                </tr>
+                <tr>
+                    <td>A. Albon</td>
+                    <td>+1 vuelta</td>
+                </tr>
+                <tr>
+                    <td>D. Ricciardo</td>
+                    <td>+1 vuelta</td>
+                </tr>
+                <tr>
+                    <td>P. Gasly</td>
+                    <td>+1 vuelta</td>
+                </tr>
+                <tr>
+                    <td>V. Bottas</td>
+                    <td>+1 vuelta</td>
+                </tr>
+                <tr>
+                    <td>G. Zhou</td>
+                    <td>+1 vuelta</td>
+                </tr>
+                <tr>
+                    <td>E. Ocon</td>
+                    <td>+1 vuelta</td>
+                </tr>
+                <tr>
+                    <td>G. Russell</td>
+                    <td>NT</td>
+                </tr>
+                <tr>
+                    <td>L. Hamilton</td>
+                    <td>NT</td>
+                </tr>
+                <tr>
+                    <td>M. Verstappen</td>
+                    <td>NT</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p>© copyright formula1.com</p>
+    </footer>
+</body>
+
+</html>
