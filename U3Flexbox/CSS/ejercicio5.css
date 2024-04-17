@@ -1,0 +1,28 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    padding-inline-start: 0px;
+    height: 1000px;
+    gap: 2px;
+}
+
+li{
+    list-style-type: none;
+    padding: 12px 24px;
+    
+}
+
+li p{
+    font-family: sans-serif;
+    color: black;
+}
+
+.lateral{
+    background-color: rgba(39, 128, 129, 0.8);
+    /*flex: 1;*/
+}
+
+.principal{
+    background-color: rgba(123,198,199,0.8);
+    /*flex: 4;*/
+}
