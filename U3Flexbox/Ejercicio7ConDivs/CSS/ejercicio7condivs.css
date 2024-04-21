@@ -1,0 +1,32 @@
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    width: 25%;
+    height: 300px;
+    box-shadow: 0 0px 7px rgb(0, 0, 0);
+}
+    
+.header, .footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    flex: 2;
+}
+
+.main {
+    flex: 3;
+    padding: 20px;
+}
+
+.footer {
+    background-color: rgb(121, 115, 115);
+    color: white;
+    flex: 1;
+}

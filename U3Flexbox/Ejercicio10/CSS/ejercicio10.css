@@ -1,0 +1,36 @@
+
+*{
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: rgb(186, 116, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+}
+
+.main div{
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.laterales{
+    background-color: rgb(63, 61, 61);
+    color: white;
+    flex: 1;
+}
+
+.centro{
+    flex: 2;
+}

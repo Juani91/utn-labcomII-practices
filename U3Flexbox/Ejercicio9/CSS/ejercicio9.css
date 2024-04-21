@@ -1,0 +1,31 @@
+
+body {
+    padding: 20px;
+}
+
+.contenedor {
+    display: flex;
+    font-family: sans-serif;
+    height: 400px;
+}
+
+.columnaIzq {
+    background-color: #0e7c74;
+    flex: 2;
+    color: white;
+}
+
+.columnaDer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.columnaIzq, .columnaDer div{
+    padding: 24px;
+    border: 1px solid lightgray;
+}
+
+.columnaDer div {   
+    height: 100%;
+}

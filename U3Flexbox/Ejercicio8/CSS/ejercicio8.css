@@ -1,0 +1,40 @@
+
+.contenedor{
+    font-family: sans-serif;
+    display: flex;
+    gap: 20px;
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+div div{
+    width: 25%;
+    box-shadow: 0 0px 7px rgb(0, 0, 0); /* 0 inclinación dispersión color */
+}
+
+header{
+    background-color: black;
+    height: 40px;
+}
+
+main{
+    padding: 20px;
+    height: 100%;
+}
+
+footer{
+    background-color: rgb(129, 120, 120);
+    height: 30px;
+}
+
+.HeadFoot{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
