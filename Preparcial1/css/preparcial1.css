@@ -118,7 +118,7 @@ section.main-image>div {
 
 .careers {
     display: flex;
-    justify-content: row;
+    justify-content: flex-start;
 }
 
 .careers .career {
